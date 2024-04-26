@@ -6,34 +6,48 @@
     <title>Save the date I & V</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <img src="./img/oaxaca.jpg" class="img-fluid" alt="I&V en hierveelagua">
+    </div>
+    <div class="rayuela">
         <p>"Andabamos sin buscarnos, pero sabiendo que andabamos para encontrarnos..."</p><br>
+    </div>
+    <div class="cortazar">
         <p>-Cortázar</p>
     </div>
 
     <section>
         <div class="IyV">
-            <p><h1>Iszael & Vanessa</h1></p><br>
+            <p><h1>Iszael & Vanessa</h1></p>
             <p><h3>Nuestra boda</h3></p><br>
         </div>
     </section>
     <section>
         <div class="save">
-            <p><H4>Save the date</H4></p><br>
-            <p><h3>8 de marzo, 2025</h3></p>
-            <p>Tlalnepantla, EdoMex</p>
+            <p><H4>Save the date</H4></p>
+            <p><h2>8 de marzo, 2025</h2></p>
+            <p><h5>Tlalnepantla, EdoMex</h5></p>
         </div>
     </section>
     <section>
         <div class="calendario">
-            <p>Agrega a tu calendario</p>
+            <p><h4>Agrega a tu calendario</h4></p>
+            <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MHVscG1jdjUzN3FyMGI5amxlb244dmJzbTIgYm9kYWl5djE4QG0&amp;tmsrc=bodaiyv18%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_es-419.gif"></a>
         </div>
     </section>
 </body>
 <footer>
-    <p> Pronto te haremos llegar la invitación, esperala. </p>
+    <div class="inv">
+        <p> Muy pronto te haremos llegar la invitación, esperala. </p>
+    </div>
+    <div class="logo">
+        <img src="./" class="img-fluid" alt="I&V">
+    </div>
 </footer>
 </html>
